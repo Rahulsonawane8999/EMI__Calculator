@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.EMI_Test">
+      <class name="testrunner.TestRunner">
         <methods>
-          <include name="validateEMIUsingExcel"/>
-          <include name="setup"/>
-          <include name="testPDFDownload"/>
-          <include name="uiValidation"/>
-          <include name="tearDown"/>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="12"/>
         </methods>
-      </class> <!-- tests.EMI_Test -->
+      </class> <!-- testrunner.TestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

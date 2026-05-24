@@ -80,6 +80,11 @@ public class EMISteps {
 
     @Then("loan category should be displayed")
     public void verifyCategory() {
+    	try {
+    		page.handleAlert();
+    	}catch(Exception e) {
+    		
+    	}
         Assert.assertTrue(page.getCategory().length() > 0);
     }
 }
