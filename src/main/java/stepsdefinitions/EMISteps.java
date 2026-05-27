@@ -87,4 +87,9 @@ public class EMISteps {
     	}
         Assert.assertTrue(page.getCategory().length() > 0);
     }
-}
+    @Then("PDF should not be generated successfully")
+    public void pdf_should_not_be_generated_successfully() {
+        Assert.assertFalse(page.isPDFGenerated());
+        }
+    }
+

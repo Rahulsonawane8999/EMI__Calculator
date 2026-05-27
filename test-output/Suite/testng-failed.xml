@@ -4,15 +4,13 @@
   <test thread-count="5" name="Test1(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="tests.EMI_Test">
+      <class name="testrunner.TestRunner">
         <methods>
-          <include name="validateEMIUsingExcel"/>
-          <include name="setup"/>
-          <include name="uiValidation"/>
-          <include name="testPDFDownload"/>
-          <include name="tearDown"/>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4 5 6 7 8 9 10 11 12 13"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- tests.EMI_Test -->
+      </class> <!-- testrunner.TestRunner -->
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

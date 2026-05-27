@@ -10,14 +10,10 @@ import io.cucumber.testng.CucumberOptions;
 			    "src/main/resources/features/EMI_BFunctional.feature",
 			    "src/main/resources/features/EMI_CReport.feature"
 			},
-    glue = "stepsdefinitions",
-    plugin =
-{
-        "pretty",
-        "html:target/cucumber-report.html",        
-        //"json:target/cucumber.json",               
-//        "junit:target/cucumber.xml"              
-    }
+		glue = "stepsdefinitions",
+		plugin = {"pretty","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+				"html:target/cucumber-report.html"
+			}
 
 )
 

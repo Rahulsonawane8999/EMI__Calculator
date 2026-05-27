@@ -20,7 +20,7 @@ Examples:
   | 10000000  | 25       | 360    |
 
 # ===============================
-# LOAN CATEGORY CHECK ✅
+# LOAN CATEGORY CHECK 
 # ===============================
 
 Scenario Outline: Validate loan category

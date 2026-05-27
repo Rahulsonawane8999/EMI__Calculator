@@ -1,25 +1,270 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-24T10:45:55 IST" name="Suite" finished-at="2026-05-24T10:48:38 IST" duration-ms="162856">
+  <suite started-at="2026-05-26T08:08:59 IST" name="Default suite" finished-at="2026-05-26T08:11:24 IST" duration-ms="145723">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2026-05-24T10:45:55 IST" name="Test1" finished-at="2026-05-24T10:48:38 IST" duration-ms="162856">
-      <class name="tests.EMI_Test">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.EMI_Test@4e08711f]" started-at="2026-05-24T10:45:55 IST" name="setup" finished-at="2026-05-24T10:46:02 IST" duration-ms="6919" status="PASS">
+    <test started-at="2026-05-26T08:08:59 IST" name="Default test" finished-at="2026-05-26T08:11:24 IST" duration-ms="145723">
+      <class name="testrunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:08:59 IST" name="setUpClass" finished-at="2026-05-26T08:09:00 IST" duration-ms="1212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a6e410c]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testEMI()[pri:0, instance:tests.EMI_Test@4e08711f]" started-at="2026-05-24T10:46:02 IST" name="testEMI" finished-at="2026-05-24T10:48:35 IST" duration-ms="152920" status="PASS">
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:09:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:09:14 IST" duration-ms="13837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Input Validation"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testEMI -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EMI_Test@4e08711f]" started-at="2026-05-24T10:48:35 IST" name="tearDown" finished-at="2026-05-24T10:48:38 IST" duration-ms="2948" status="PASS">
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:09:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:09:21 IST" duration-ms="7642" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Input Validation"]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- tests.EMI_Test -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:09:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:09:29 IST" duration-ms="7550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Input Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:09:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:09:36 IST" duration-ms="7528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Input Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:09:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:09:44 IST" duration-ms="7563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Input Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:09:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:09:51 IST" duration-ms="7530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate invalid inputs"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Input Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:09:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:09:58 IST" duration-ms="6753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate EMI calculation and boundary values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Functional Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:09:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:10:05 IST" duration-ms="6629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate EMI calculation and boundary values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Functional Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:10:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:10:12 IST" duration-ms="6761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate EMI calculation and boundary values"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Functional Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:10:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:10:29 IST" duration-ms="16971" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate loan category"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Functional Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:10:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:10:45 IST" duration-ms="16814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate loan category"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Functional Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:10:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:11:02 IST" duration-ms="16961" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate loan category"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Functional Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:11:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:11:09 IST" duration-ms="7115" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate report generation with valid data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Report and UI Validation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:11:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-26T08:11:18 IST" duration-ms="8172" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate PDF should NOT generate for invalid data  # DEFECT CASE"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["EMI Report and UI Validation"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at stepsdefinitions.EMISteps.pdf_should_not_be_generated_successfully(EMISteps.java:92)
+at ✽.PDF should not be generated successfully(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_CReport.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@bccb269]" started-at="2026-05-26T08:11:18 IST" name="tearDownClass" finished-at="2026-05-26T08:11:24 IST" duration-ms="6601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

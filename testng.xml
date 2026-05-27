@@ -4,8 +4,8 @@
         <parameter name="browser" value="chrome"/>
         
         <classes>
-           
-            <class name="tests.EMI_Test" />
+           <class name="testrunner.TestRunner"></class>
+           <!--  <class name="tests.EMI_Test" /> -->
         </classes>
     </test>
 </suite>

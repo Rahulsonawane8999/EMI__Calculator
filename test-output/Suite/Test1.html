@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test1</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/14/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun May 24 10:45:55 IST 2026</td>
+<td>Started on:</td><td>Sun May 24 11:18:50 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>162 seconds (162856 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1238 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
@@ -76,10 +76,199 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.EMI_Test.testEMI()'><b>testEMI</b><br>Test class: tests.EMI_Test</td>
-<td></td>
-<td>152</td>
-<td>tests.EMI_Test@4e08711f</td></tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid inputs", "EMI Input Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace235151116", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace235151116'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate EMI calculation and boundary values", "EMI Functional Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1638249646", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1638249646'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate loan category", "EMI Functional Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;400000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:30)
+</pre></div><a href='#' onClick='toggleBox("stack-trace656349395", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace656349395'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;400000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:30)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate report generation with valid data", "EMI Report and UI Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_CReport.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1069584108", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1069584108'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_CReport.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate PDF should NOT generate for invalid data  # DEFECT CASE", "EMI Report and UI Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;800&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_CReport.feature:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace505968231", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace505968231'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;800&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_CReport.feature:24)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid inputs", "EMI Input Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace295055909", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace295055909'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid inputs", "EMI Input Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at base.BaseClass.setup(BaseClass.java:24)
+	at stepsdefinitions.Hooks.startBrowser(Hooks.java:18)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1917442783", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1917442783'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.manage()&quot; because &quot;this.driver&quot; is null
+	at base.BaseClass.setup(BaseClass.java:24)
+	at stepsdefinitions.Hooks.startBrowser(Hooks.java:18)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate loan category", "EMI Functional Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;3000000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:30)
+</pre></div><a href='#' onClick='toggleBox("stack-trace246264949", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace246264949'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;3000000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:30)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate EMI calculation and boundary values", "EMI Functional Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;10000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1533672820", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1533672820'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;10000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid inputs", "EMI Input Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace36627152", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace36627152'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate loan category", "EMI Functional Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;1000000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:30)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1642308093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1642308093'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;1000000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:30)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid inputs", "EMI Input Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;100000001&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace651235118", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace651235118'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;100000001&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid inputs", "EMI Input Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2111247080", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2111247080'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;500000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_AValidation.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
+<tr>
+<td title='testrunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: testrunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate EMI calculation and boundary values", "EMI Functional Validation"</td>
+<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;10000000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:8)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2123269713", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2123269713'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at pages.EMIPage.enterLoan(EMIPage.java:58)
+	at stepsdefinitions.EMISteps.enterLoan(EMISteps.java:20)
+	at ✽.user enters loan &quot;10000000&quot;(file:///C:/Users/2484058/OneDrive%20-%20Cognizant/Desktop/Mini_Projects/EMICalculator/src/main/resources/features/EMI_BFunctional.feature:8)
+</pre></div></td>
+<td>0</td>
+<td>testrunner.TestRunner@37ceb1df</td></tr>
 </table><p>
 </body>
 </html>

@@ -19,11 +19,13 @@ Feature: EMI Report and UI Validation
 
   Scenario: Validate PDF should NOT generate for invalid data  # DEFECT CASE
 
-    Given user is on EMI page
+  Given user is on EMI page
 
-    When user enters loan "800"
-    And user enters interest "0.5"
-    And user enters tenure "367"
+  When user enters loan "800"
+  And user enters interest "0.5"
+  And user enters tenure "367"
 
-    When user clicks download PDF
-    Then alert should be displayed
+  And user clicks calculate
+  Then alert should be displayed
+  When user clicks download PDF
+  Then PDF should not be generated successfully
